@@ -66,8 +66,6 @@ library
                      , lnotes-ui-core
                      , haskell-ln-types
                      , haskell-api-helpers-shared
-                     , haskell-bbcode-parser
-                     , haskell-bbcode-parser-reactflux
                      , haskell-either-helpers
                      , haskell-web-bootstrap
                      , haskell-ebyam
