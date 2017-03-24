@@ -31,20 +31,11 @@ import           React.Flux                            hiding (view)
 import qualified React.Flux                            as RF
 import qualified Web.Bootstrap3                        as B
 
-import           LN.Api                                (getForumPacks_ByOrganizationId',
-                                                        getOrganizationPacks,
-                                                        getOrganizationsCount',
-                                                        postOrganization',
-                                                        putOrganization')
-import           LN.Api.String                         (getOrganizationPack')
-import           LN.Generate.Default                   (defaultOrganizationRequest)
 import           LN.Sanitize.Internal                  (toSafeName)
-import           LN.T.Convert                          (organizationResponseToOrganizationRequest)
 import           LN.T.Pack.Sanitized.User
 import           LN.T.Profile
 import           LN.T.Size                             (Size (..))
 import           LN.T.User                             (UserSanitizedResponse (..))
-import qualified LN.UI.Core.App.Organization           as Organization
 import qualified LN.UI.Core.App.Profile                as Profile
 import           LN.UI.Core.Helpers.DataList           (deleteNth)
 import           LN.UI.Core.Helpers.DataText           (tshow)
@@ -64,7 +55,6 @@ import           LN.UI.Core.Router                     (CRUD (..), Params,
 import           LN.UI.ReactFlux.Access
 import           LN.UI.ReactFlux.App.Core.Shared
 import qualified LN.UI.ReactFlux.App.Delete            as Delete
-import qualified LN.UI.ReactFlux.App.Forums            as Forums (viewIndex_)
 import qualified LN.UI.ReactFlux.App.Gravatar          as Gravatar
 import           LN.UI.ReactFlux.App.Loader            (Loader (..))
 import qualified LN.UI.ReactFlux.App.Loader            as Loader

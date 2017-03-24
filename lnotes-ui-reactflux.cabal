@@ -21,30 +21,22 @@ library
                      , LN.UI.ReactFlux.Main
                      , LN.UI.ReactFlux.Types
                      , LN.UI.ReactFlux.App.About
-                     , LN.UI.ReactFlux.App.Boards
                      , LN.UI.ReactFlux.App.Breadcrumbs
                      , LN.UI.ReactFlux.App.Core
                      , LN.UI.ReactFlux.App.Core.Shared
                      , LN.UI.ReactFlux.App.Delete
                      , LN.UI.ReactFlux.App.Errors
-                     , LN.UI.ReactFlux.App.Experiments
-                     , LN.UI.ReactFlux.App.Forums
                      , LN.UI.ReactFlux.App.Gravatar
                      , LN.UI.ReactFlux.App.Layout
-                     , LN.UI.ReactFlux.App.Like
                      , LN.UI.ReactFlux.App.Home
                      , LN.UI.ReactFlux.App.Loader
                      , LN.UI.ReactFlux.App.NavBar
                      , LN.UI.ReactFlux.App.NotFound
                      , LN.UI.ReactFlux.App.Oops
-                     , LN.UI.ReactFlux.App.Organizations
                      , LN.UI.ReactFlux.App.PageNumbers
                      , LN.UI.ReactFlux.App.Portal
                      , LN.UI.ReactFlux.App.Profile
-                     , LN.UI.ReactFlux.App.Star
                      , LN.UI.ReactFlux.App.Users
-                     , LN.UI.ReactFlux.App.Threads
-                     , LN.UI.ReactFlux.App.ThreadPosts
                      , LN.UI.ReactFlux.App.Types
                      , LN.UI.ReactFlux.Helpers.ReactFluxDOM
                      , LN.UI.ReactFlux.Helpers.ReactFluxView
