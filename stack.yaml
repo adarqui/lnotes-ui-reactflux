@@ -15,7 +15,7 @@
 # resolver:
 #  name: custom-snapshot
 #  location: "./custom-snapshot.yaml"
-resolver: lts-6.6
+resolver: lts-8.5
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -36,27 +36,27 @@ resolver: lts-6.6
 # non-dependency (i.e. a user package), and its test suites and benchmarks
 # will not be run. This is useful for tweaking upstream packages.
 packages:
-- '.'
-- '../ln-ui-core'
-- '../ln-sanitize'
-- '../ln-validate'
-- '../ln-api'
-- '../haskell-ln-types'
-- '../haskell-api-helpers-shared'
-- '../haskell-api-helpers'
-- '../haskell-bbcode-parser'
-- '../haskell-bbcode-parser-reactflux'
-- '../haskell-media-embed'
-- '../haskell-media-embed-reactflux'
-- '../haskell-either-helpers'
-- '../haskell-ebyam'
-- '../haskell-ifte'
-- '../haskell-rehtie'
-- '../haskell-web-bootstrap'
-- '../react-flux-router'
-- '../ghcjs-router'
-- '../ghcjs-ajax/ghcjs-ajax'
-- '../web-routes' ## <-- custom web-routes with my fromPathInfoParams function
+- .
+- ../lnotes-ui-core
+- ../ln-sanitize
+- ../ln-validate
+- ../ln-api
+- ../haskell-ln-types
+- ../haskell-api-helpers-shared
+- ../haskell-api-helpers
+- ../haskell-bbcode-parser
+- ../haskell-bbcode-parser-reactflux
+- ../haskell-media-embed
+- ../haskell-media-embed-reactflux
+- ../haskell-either-helpers
+- ../haskell-ebyam
+- ../haskell-ifte
+- ../haskell-rehtie
+- ../haskell-web-bootstrap
+- ../react-flux-router
+- ../ghcjs-router
+- ../ghcjs-ajax/ghcjs-ajax
+- ../web-routes ## <-- custom web-routes with my fromPathInfoParams function
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)

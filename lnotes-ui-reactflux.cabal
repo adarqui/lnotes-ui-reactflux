@@ -1,8 +1,8 @@
-name:                ln-ui-reactflux
+name:                lnotes-ui-reactflux
 version:             0.1.0.1
 synopsis:            LN.UI.ReactFlux using React Flux
 description:         Please see README.md
-homepage:            https://github.com/adarqui/ln-ui-reactflux#readme
+homepage:            https://github.com/adarqui/lnotes-ui-reactflux#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Andrew Darqui
@@ -71,7 +71,7 @@ library
                      , web-routes == 99.99
                      , ln-sanitize
                      , ln-validate
-                     , ln-ui-core
+                     , lnotes-ui-core
                      , haskell-ln-types
                      , haskell-api-helpers-shared
                      , haskell-bbcode-parser
@@ -87,7 +87,7 @@ library
   ghc-options:         -Wall
   default-language:    Haskell2010
 
-test-suite ln-ui-reactflux-test
+test-suite lnotes-ui-reactflux-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
@@ -97,10 +97,10 @@ test-suite ln-ui-reactflux-test
                      , text
                      , web-routes
                      , haskell-ln-types
-                     , ln-ui-reactflux
+                     , lnotes-ui-reactflux
   ghc-options:         -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 
 source-repository head
   type:     git
-  location: https://github.com/adarqui/ln-ui-reactflux
+  location: https://github.com/adarqui/lnotes-ui-reactflux
