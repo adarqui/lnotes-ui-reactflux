@@ -58,7 +58,7 @@ packages:
 # (e.g., acme-missiles-0.3)
 extra-deps:
   - haskell-src-exts-1.16.0.1
-  - react-flux-1.1.1
+  - react-flux
   - ref-tf-0.4
   - html-entities-1.1.2
 
